@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="icon" href="/song/music icon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" 
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+        <div class="back-image">
+            <img src="/song/music player image.jpg" alt="">
+        </div>
+    
+   <div class="head">
+    <h1 id="head">Music Player</h1>
+   </div>
+   
+    <div class="container" id="container">
+       
+        <div class="music-image">
+            <img src="/image/speaker.webp" width="100" alt="">
+        </div>
+        <div class="song-name" id="song-name">
+            play music 
+            <div id="song-artist1">
+                song-artist
+            </div> 
+        </div>
+        <audio id="audio" src="" ></audio>
+        <input id="audio-range" min="0" max="1" step="0.1"  type="range">
+
+        <div class="btn">
+            <button id="pre"><i class="fa-solid fa-backward"></i></button>
+            <button id="play"><i class="fa-solid fa-play"></i></button>
+            <button id="pause"> <i class="fa-solid fa-pause"></i></button>
+            <button id="next"><i class="fa-solid fa-forward"></i></button>
+            <button id="mute"><i class="fa-solid fa-volume-xmark"></i></button>    
+        </div>
+    </div>
+  
+    <script src="script.js"></script>
+
+</body>
+</html>
